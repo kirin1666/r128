@@ -1,0 +1,34 @@
+site_name: R128
+
+repo_url: "https://www.aw-ol.com"
+
+nav:
+  - index.md # R128芯片介绍
+
+copyright: <a href="https://www.aw-ol.com/">Copyright &copy; 2023全志开发者社区</a>
+
+extra_css:
+  - assets/css/style.css
+  - assets/css/simpleLightbox.min.css
+  - assets/css/prism.css
+
+extra_javascript:
+  - "https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"
+  - assets/js/simpleLightbox.min.js
+  - assets/js/script.js
+  - assets/js/prism.js
+
+theme:
+  name: material
+  language: zh
+  logo: assets/img/awol.png
+  palette:
+    primary: orange
+    accent: orange
+  plugins:
+    - search:
+      lang: ja
+  features:
+    - navigation.expand
+  font: false
+  custom_dir: overrides
